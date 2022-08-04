@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Médias</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Médias</h1>
+      
+      <input id="nota1" type="number" name="nota1" placeholder="Digite a nota 1" /> <br />
+      <input id="nota2" type="number" name="nota2" placeholder="Digite a nota 2"/> <br />
+      <input id="nota3" type="number" name="nota3" placeholder="Digite a nota 3"/> <br />
+      <input id="nota4" type="number" name="nota4" placeholder="Digite a nota 4"/> <br />
+      
+      <!-- Botão que ao clicar ativa a function soma() no js-->
+      <button onclick="soma()">Calcular</button>
+      
+      <!-- <input type="reset" value="Limpar Campos"> -->
+      <button id="reset" onclick="reset()" type="reset">Limpar</button> 
+      
+      <!--Campo onde aparecera o resultado da soma -->
+      <div id="resultado"></div>
+      <!-- <img src="assets/img/quadro.png" alt=""> -->
+      </div>
+
+      <footer> <a href="https://github.com/AllancGoulart" target="_blank">Criado por Allan Goulart</a></footer>
+   </body>
+  <script src="assets/script.js"></script>
+</html>
